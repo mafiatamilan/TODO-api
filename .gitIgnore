@@ -1,1 +1,45 @@
-.env/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations (keep __init__.py though)
+*/migrations/*
+!*/migrations/__init__.py
+
+# Environment variables
+.env
+.env.*
+
+# IDE & editor configs
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled / optimized / DLL files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# macOS / Linux / Windows junk
+.DS_Store
+Thumbs.db
+
